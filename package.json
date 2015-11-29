@@ -1,0 +1,12 @@
+{
+  "name": "angular-typescript",
+  "version": "0.0.1",
+  "devDependencies": {
+    "del": "^2.1.0",
+    "gulp": "^3.9.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-sync": "^0.1.4",
+    "gulp-typescript": "^2.9.2",
+    "path": "^0.12.7"
+  }
+}
