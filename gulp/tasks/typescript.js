@@ -28,6 +28,8 @@ function bundleScripts(opts) {
             fullPaths: true // required by <watchify>, DO NOT CHANGE !!!
         };
 
+    console.log(_watch);
+
     function _bundle() {
         return _browserify.bundle()
             .on('error', log.bind(gutil, 'Browserify Error'))
