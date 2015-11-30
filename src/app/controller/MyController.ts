@@ -1,10 +1,16 @@
-module app.controller {
+'use strict';
 
-    export class MyController {
+interface IHelloScope extends ng.IScope {
 
-        constructor (name:string) {
-            console.log('Hello ' + name);
-        }
+    message:string;
+}
+
+export class MyController {
+
+    constructor(private $scope:IHelloScope) {
+
+        $scope.message = 'Hauke';
     }
 }
+
 

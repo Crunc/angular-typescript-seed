@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+    <meta charset="UTF-8">
+    <title>angular-typescript</title>
+</head>
+<body>
+    <div ng-controller="MyController">
+        <input type="text" ng-model="message">
+        <p ng-bind-template="Hello {{ message }}"></p>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

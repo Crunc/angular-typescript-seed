@@ -1,6 +1,11 @@
-module app {
-    'use strict';
+/// <reference path="../../typings/tsd.d.ts"/>
 
-    var c1 = new app.controller.MyController('Techem'),
-        c2 = new app.controller.OtherController(2, 3);
+'use strict';
+
+import 'angular';
+import {MyController} from './controller/MyController.ts';
+
+module app {
+    angular.module('app', [])
+        .controller('MyController', MyController);
 }
