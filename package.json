@@ -1,6 +1,11 @@
 {
   "name": "angular-typescript",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Crunc/angular-typescript-seed.git"
+  },
+  "license": "MIT",
   "dependencies": {
     "angular": "^1.4.8"
   },
@@ -12,13 +17,13 @@
     "gulp-connect": "^2.2.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-sync": "^0.1.4",
-    "gulp-typescript": "^2.9.2",
     "gulp-util": "^3.0.7",
     "path": "^0.12.7",
+    "require-dir": "^0.3.0",
     "through": "^2.3.8",
     "tsify": "^0.12.2",
     "vinyl-buffer": "^1.0.0",
     "vinyl-source-stream": "^1.1.0",
-    "vinyl-transform": "^1.0.0"
+    "watchify": "^3.6.1"
   }
 }

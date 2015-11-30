@@ -8,7 +8,6 @@ interface IHelloScope extends ng.IScope {
 export class MyController {
 
     constructor(private $scope:IHelloScope) {
-
         $scope.message = 'Hauke';
     }
 }
